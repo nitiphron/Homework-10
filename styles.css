@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.counter {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    margin-bottom: 50px; /* Added margin for spacing between counters */
+}
+
+.counter > * {
+    flex: 1;
+    font-size: 32px;
+    height: 100%;
+}
